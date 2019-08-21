@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+  .affix {
+      top: 0;
+      width: 100%;
+      z-index: 9999 !important;
+  }
+
+  .affix + .container-fluid {
+      padding-top: 70px;
+  }
+   #section1 {padding-top:50px;height:500px;color: #fff; background-color: #1E88E5;}
+  #section2 {padding-top:50px;height:500px;color: #fff; background-color: #673ab7;}
+  #section3 {padding-top:50px;height:500px;color: #fff; background-color: #ff9800;}
+  #section4 {padding-top:50px;height:500px;color: #fff; background-color: #00bcd4;}
+  #section5 {padding-top:50px;height:500px;color: #fff; background-color: #009688;}
+  </style>
+</head>
+<body style="background-color:black">
+  
+<div class="container-fluid" style="background-color:;color:;height:px;">
+<!--for creating staring effects -->
+  <div class="container" style="background-color: black">
+  <h2 style="color: white">TRAVEL THE WORLD</h2>  
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+       <li data-target="#myCarousel" data-slide-to="3"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+        <img src="p3.jpg" alt="" style="width:100%;height:800px">
+      </div>
+
+      <div class="item">
+        <img src="1.jpg" alt="" style="width:100%;height:800px">
+      </div>
+    
+      <div class="item">
+        <img src="p2.jpg" alt="" style="width:100%;height:800px">
+      </div>
+      <div class="item">
+        <img src="p4.jpg" alt="" style="width:100%;height:800px">
+      </div>
+      <div class="item">
+        <img src="p5.jpg" alt="" style="width:100%;height:800px">
+      </div>
+      <div class="item">
+        <img src="p6.jpg" alt="" style="width:100%;height:800px">
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+</div>
+
+<nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="197">
+  <ul class="nav navbar-nav" style="color: white">
+    <li class="active"><a href="#section1">HOME</a></li>
+    <li><a href="#section2">INDIA</a></li>
+    <li><a href="#section3">ITALY</a></li>
+    <li><a href="#section4">GERMANY</a></li>
+    <li><a href="#section5">FRANCE</a></li>
+
+  </ul>
+</nav>
+
+<div id="section1" class="container-fluid">
+  <h2 style="color: white">Your Destination Our Service</h2> 
+<div class="row">
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="s13.jpg" target="_blank">
+          <img src="s13.jpg" alt="Lights" style="width:100%;height:300px">
+          <div class="caption">
+            <p>Mountains</p>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="s11.jpg" target="_blank">
+          <img src="s11.jpg" alt="Nature" style="width:100%;height:300px">
+          <div class="caption">
+            <p>Rivers</p>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="s12.jpg" target="_blank">
+          <img src="s12.jpg" alt="Fjords" style="width:100%;height:300px">
+          <div class="caption">
+            <p>Beaches</p>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="section2" class="container-fluid">
+ <h2 style="color: white">Indian Legacy</h2> 
+<div class="row">
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="s23.jfif" target="_blank">
+          <img src="s13.jpg" alt="Lights" style="width:100%;height:300px">
+          <div class="caption">
+            <p>Manali</p>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="s21.jfif" target="_blank">
+          <img src="s21.jfif" alt="Nature" style="width:100%;height:300px">
+          <div class="caption">
+            <p>Kashmir Heaven on Earth</p>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="s22.jfif" target="_blank">
+          <img src="s23.jfif" alt="Fjords" style="width:100%;height:300px">
+          <div class="caption">
+            <p>leh, Jammu and Kashmir</p>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="section3" class="container-fluid">
+  <h2 style="color: white">Italy Pop</h2> 
+<div class="row">
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="s33.jfif" target="_blank">
+          <img src="s33.jpg" alt="Lights" style="width:100%;height:300px">
+          <div class="caption">
+            <p>Leaning tower of Pisa</p>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="s31.jfif" target="_blank">
+          <img src="s31.jpg" alt="Nature" style="width:100%;height:300px">
+          <div class="caption">
+            <p>Venice</p>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="s32.jfif" target="_blank">
+          <img src="s32.jpeg" alt="Fjords" style="width:100%;height:300px">
+          <div class="caption">
+            <p>Colosseum</p>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="section4" class="container-fluid">
+  <h2 style="color: white">Germany</h2> 
+<div class="row">
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="s31.jpg" target="_blank">
+          <img src="s31.jpg" alt="Lights" style="width:100%;height:300px">
+          <div class="caption">
+            <p>Neuschwanstein Castle, Germany</p>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="s43.jpg" target="_blank">
+          <img src="s43.jpg" alt="Nature" style="width:100%;height:300px">
+          <div class="caption">
+            <p>Cologne </p>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="s42.jfif" target="_blank">
+          <img src="s42.jfif" alt="Fjords" style="width:100%;height:300px">
+          <div class="caption">
+            <p>Berlin,the capital City</p>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="section5" class="container-fluid">
+  <h2 style="color: white">France</h2> 
+<div class="row">
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="s51.jfif" target="_blank">
+          <img src="s51.jfif" alt="Lights" style="width:100%;height:300px">
+          <div class="caption">
+            <p>Eiffel Tower</p>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="s52.jpg" target="_blank">
+          <img src="s52.jpg" alt="Nature" style="width:100%;height:300px">
+          <div class="caption">
+            <p>Honfleur Harbour, Honfleur, France</p>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="s53.jpeg" target="_blank">
+          <img src="s53.jpeg" alt="Fjords" style="width:100%;height:300px">
+          <div class="caption">
+            <p>Versailles</p>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+ </div>              
+
+</body>
+</html>
